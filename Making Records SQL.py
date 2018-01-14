@@ -2,7 +2,7 @@
 
 import MySQLdb as sql
 
-con=sql.connect("127.0.0.1","root","ssviexe123","Records")
+con=sql.connect("127.0.0.1","root","*password*","Records")
 c=con.cursor()
 
 
